@@ -2,9 +2,9 @@
 
 namespace Mgcodeur\LaravelAttributes;
 
+use Mgcodeur\LaravelAttributes\Commands\LaravelAttributesCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Mgcodeur\LaravelAttributes\Commands\LaravelAttributesCommand;
 
 class LaravelAttributesServiceProvider extends PackageServiceProvider
 {
