@@ -4,6 +4,21 @@
 
 [![Product](https://i.ibb.co/XWZ4k1s/Laravel-attributable-package.png)](https://dbdiagram.io/d/Laravel-attributable-package-657ae60c56d8064ca00664ad)
 
+### Feature List for Product Variations Module
+
+| Feature                                      | Status          |
+|----------------------------------------------|-----------------|
+| Add attributes (e.g., Color, Capacity)       | ⭕              |
+| Add attribute values (e.g., Blue, 64 GB)     | ⭕              |
+| Manage prices for each variant               | ⭕              |
+| Manage stock levels for each variant         | ⭕              |
+| Manage variants                              | ⭕              |
+
+#### Legend
+- ✅ (implemented)
+- ⭕ (not implemented)
+
+
 ### Table `product`
 
 | id  | name | description         | category_id | created_at          | updated_at          |
@@ -54,3 +69,14 @@
 | 6   | 3                | 4                  |  // Capacity: 2 GB
 
 
+### Full Example
+
+| Product Name    | Color | Capacity | Price | Stock | SKU      | Created At          | Updated At          |
+|-----------------|-------|----------|-------|-------|----------|---------------------|---------------------|
+| USB Drive 64 GB | Blue  | 64 GB    | 1.00  | 20    | USB-B-64 | 2024-08-15 12:00:00 | 2024-08-15 12:00:00 |
+| USB Drive 64 GB | Red   | 64 GB    | 1.20  | 15    | USB-R-64 | 2024-08-15 12:00:00 | 2024-08-15 12:00:00 |
+| USB Drive 2 GB  | Red   | 2 GB     | 0.50  | 0     | USB-R-2  | 2024-08-15 12:00:00 | 2024-08-15 12:00:00 |
+
+- This module will allow you to manage product variations, such as color, capacity, etc.
+- Prices and stock levels can be managed for each combination of attributes.
+- The SKU is automatically generated based on the attribute values.
