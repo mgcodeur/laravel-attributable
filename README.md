@@ -2,6 +2,8 @@
 
 ## Draft (table schema)
 
+[![Product](https://i.ibb.co/XWZ4k1s/Laravel-attributable-package.png)](https://dbdiagram.io/d/Laravel-attributable-package-657ae60c56d8064ca00664ad)
+
 ### Table `product`
 
 | id  | name | description         | category_id | created_at          | updated_at          |
@@ -50,3 +52,5 @@
 | 4   | 2                | 3                  |  // Capacity: 64 GB
 | 5   | 3                | 2                  |  // Color: Red
 | 6   | 3                | 4                  |  // Capacity: 2 GB
+
+
