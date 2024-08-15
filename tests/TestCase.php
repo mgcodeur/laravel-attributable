@@ -3,8 +3,8 @@
 namespace Mgcodeur\LaravelAttributes\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Mgcodeur\LaravelAttributes\LaravelAttributesServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
