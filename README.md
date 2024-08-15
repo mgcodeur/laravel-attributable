@@ -1,3 +1,5 @@
+# NB: This package is still under development
+
 ## Draft (table schema)
 
 ### Table `product`
